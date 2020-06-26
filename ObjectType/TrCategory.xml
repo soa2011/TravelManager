@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="TrCategory">
+    <sch:name>TrCategory</sch:name>
+    <sch:tableType>undefined</sch:tableType>
+    <sch:archetype>NORMAL</sch:archetype>
+    <sch:parentTypeName></sch:parentTypeName>
+    <sch:superTypeName></sch:superTypeName>
+    <sch:accessMode>TableDirect</sch:accessMode>
+    <sch:primaryKey></sch:primaryKey>
+    <sch:description></sch:description>
+    <sch:bmfRelationships/>
+    <sch:bmfFields>
+        <sch:BmfObjectField>
+            <sch:name>name</sch:name>
+            <sch:dataType>Integer</sch:dataType>
+            <sch:enumName></sch:enumName>
+            <sch:length>50</sch:length>
+            <sch:scale>0</sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+        </sch:BmfObjectField>
+    </sch:bmfFields>
+</sch:ObjectType>
