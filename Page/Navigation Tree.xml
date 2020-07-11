@@ -61,6 +61,28 @@
             <sch:policyDisplay>false</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>TrOrder</sch:tableName>
+            <sch:type>Collection</sch:type>
+            <sch:seqIndex>0</sch:seqIndex>
+            <sch:format>TrOrders(%s)</sch:format>
+            <sch:columns>#count</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>true</sch:quoteDisplay>
+            <sch:policyDisplay>true</sch:policyDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>TrOrder</sch:tableName>
+            <sch:type>Item</sch:type>
+            <sch:seqIndex>0</sch:seqIndex>
+            <sch:format>TrOrder[%s]</sch:format>
+            <sch:columns>Name</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>false</sch:quoteDisplay>
+            <sch:policyDisplay>false</sch:policyDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
     </sch:treeNodes>
     <sch:buttons/>
 </sch:PageDefinition>
