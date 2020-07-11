@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:DomainTable xmlns:sch="http://Baf.com/schemas" name="steven">
+    <sch:name>steven</sch:name>
+    <sch:domainType>ListOfValues</sch:domainType>
+    <sch:description></sch:description>
+    <sch:domainKeys/>
+    <sch:domainEntries/>
+</sch:DomainTable>
