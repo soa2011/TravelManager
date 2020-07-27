@@ -2,7 +2,7 @@
 <sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="TravelManager">
     <sch:name>TravelManager</sch:name>
     <sch:tableType>System</sch:tableType>
-    <sch:archetype>NORMAL</sch:archetype>
+    <sch:archeType>NORMAL</sch:archeType>
     <sch:parentTypeName></sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode></sch:accessMode>
@@ -12,24 +12,24 @@
     <sch:bmfRelationships>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_MANY</sch:type>
-            <sch:name>TrOrder</sch:name>
+            <sch:name></sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>TrOrder</sch:relatedObjectType>
+            <sch:relatedObjectType>TravelManager</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
-            <sch:upperBound>-1</sch:upperBound>
+            <sch:upperBound>1</sch:upperBound>
             <sch:containment>false</sch:containment>
         </sch:BmfObjectRelationship>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_MANY</sch:type>
-            <sch:name>TrCategory</sch:name>
+            <sch:name></sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>TrCategory</sch:relatedObjectType>
+            <sch:relatedObjectType>TravelManager</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
-            <sch:upperBound>-1</sch:upperBound>
+            <sch:upperBound>1</sch:upperBound>
             <sch:containment>false</sch:containment>
         </sch:BmfObjectRelationship>
     </sch:bmfRelationships>
