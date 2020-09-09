@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="Navigation Tree">
-    <sch:name>Navigation Tree</sch:name>
+<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="TrOrder_RD">
+    <sch:name>TrOrder_RD</sch:name>
     <sch:pageNumber></sch:pageNumber>
     <sch:pageType>Detail</sch:pageType>
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
     <sch:seqNumber>0</sch:seqNumber>
-    <sch:tableName></sch:tableName>
+    <sch:tableName>TrOrder</sch:tableName>
     <sch:quoteDisplay>false</sch:quoteDisplay>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
@@ -25,6 +25,7 @@
     <sch:description></sch:description>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
+    <sch:objectType isRef="true">TrOrder</sch:objectType>
     <sch:fields/>
     <sch:variables/>
     <sch:treeNodes/>

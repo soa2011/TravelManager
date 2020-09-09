@@ -3,10 +3,10 @@
     <sch:name>TrOrder</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
-    <sch:parentTypeName></sch:parentTypeName>
+    <sch:parentTypeName>TravelManager</sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode>TableDirect</sch:accessMode>
-    <sch:primaryField>Name</sch:primaryField>
+    <sch:primaryField></sch:primaryField>
     <sch:primaryKey></sch:primaryKey>
     <sch:description></sch:description>
     <sch:bmfRelationships>
@@ -39,7 +39,7 @@
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>Amount</sch:name>
-            <sch:dataType>Integer</sch:dataType>
+            <sch:dataType>Int</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>0</sch:length>
             <sch:scale>0</sch:scale>
