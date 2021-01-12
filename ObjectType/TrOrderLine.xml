@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="TrCategory">
-    <sch:name>TrCategory</sch:name>
-    <sch:tableType></sch:tableType>
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="TrOrderLine">
+    <sch:name>TrOrderLine</sch:name>
+    <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
-    <sch:parentTypeName></sch:parentTypeName>
+    <sch:parentTypeName>TrOrder</sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode>TableDirect</sch:accessMode>
     <sch:primaryField></sch:primaryField>
@@ -18,10 +18,10 @@
     <sch:bmfRelationships/>
     <sch:bmfFields>
         <sch:BmfObjectField>
-            <sch:name>name</sch:name>
+            <sch:name>sku</sch:name>
             <sch:dataType>Text</sch:dataType>
             <sch:enumName></sch:enumName>
-            <sch:length>50</sch:length>
+            <sch:length>32</sch:length>
             <sch:scale>0</sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
@@ -34,24 +34,8 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>type</sch:name>
-            <sch:dataType>Text</sch:dataType>
-            <sch:enumName></sch:enumName>
-            <sch:length>0</sch:length>
-            <sch:scale>0</sch:scale>
-            <sch:autoIncrement>false</sch:autoIncrement>
-            <sch:calculated>false</sch:calculated>
-            <sch:encrypted>false</sch:encrypted>
-            <sch:seqStart>0</sch:seqStart>
-            <sch:seqPattern></sch:seqPattern>
-            <sch:calcExpr></sch:calcExpr>
-            <sch:description></sch:description>
-            <sch:changeType></sch:changeType>
-            <sch:changeFields></sch:changeFields>
-        </sch:BmfObjectField>
-        <sch:BmfObjectField>
-            <sch:name>budget</sch:name>
-            <sch:dataType>Int</sch:dataType>
+            <sch:name>quantity</sch:name>
+            <sch:dataType>Integer</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>0</sch:length>
             <sch:scale>0</sch:scale>

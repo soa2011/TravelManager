@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="Food7">
+    <sch:name>Food7</sch:name>
+    <sch:tableType>System</sch:tableType>
+    <sch:archeType>NORMAL</sch:archeType>
+    <sch:parentTypeName></sch:parentTypeName>
+    <sch:superTypeName></sch:superTypeName>
+    <sch:accessMode>TableDirect</sch:accessMode>
+    <sch:primaryField></sch:primaryField>
+    <sch:primaryKey></sch:primaryKey>
+    <sch:baseTables></sch:baseTables>
+    <sch:viewInfo></sch:viewInfo>
+    <sch:hierarchyColumn></sch:hierarchyColumn>
+    <sch:description></sch:description>
+    <sch:aggrRoot>false</sch:aggrRoot>
+    <sch:changeType></sch:changeType>
+    <sch:changeFields></sch:changeFields>
+    <sch:bmfRelationships/>
+    <sch:bmfFields>
+        <sch:BmfObjectField>
+            <sch:name>pp1</sch:name>
+            <sch:dataType>Text</sch:dataType>
+            <sch:enumName></sch:enumName>
+            <sch:length>32</sch:length>
+            <sch:scale>0</sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+        </sch:BmfObjectField>
+    </sch:bmfFields>
+    <sch:bmfRules/>
+    <sch:bmfIndexRules/>
+    <sch:objectTypeConfigs/>
+</sch:ObjectType>

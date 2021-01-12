@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="Navigation Tree">
-    <sch:name>Navigation Tree</sch:name>
+<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="NewObjectType Detail Page">
+    <sch:name>NewObjectType Detail Page</sch:name>
     <sch:pageNumber></sch:pageNumber>
     <sch:pageType>Detail</sch:pageType>
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
     <sch:seqNumber>0</sch:seqNumber>
-    <sch:objectTypeName></sch:objectTypeName>
+    <sch:objectTypeName>NewObjectType</sch:objectTypeName>
     <sch:display>false</sch:display>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
@@ -20,26 +20,13 @@
     <sch:displayResource2></sch:displayResource2>
     <sch:modifyResource2></sch:modifyResource2>
     <sch:path></sch:path>
-    <sch:description></sch:description>
+    <sch:description>Default Detail Page</sch:description>
     <sch:changeType></sch:changeType>
     <sch:changeFields></sch:changeFields>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
-    <sch:pageAreas>
-        <sch:BmfPageArea>
-            <sch:name>DefArea</sch:name>
-            <sch:row>0</sch:row>
-            <sch:col>0</sch:col>
-            <sch:rowSpan>0</sch:rowSpan>
-            <sch:colSpan>0</sch:colSpan>
-            <sch:areaType>DataView</sch:areaType>
-            <sch:controlType></sch:controlType>
-            <sch:bindingXpath></sch:bindingXpath>
-            <sch:controller></sch:controller>
-            <sch:childAreas/>
-            <sch:fields/>
-        </sch:BmfPageArea>
-    </sch:pageAreas>
+    <sch:objectType isRef="true">NewObjectType</sch:objectType>
+    <sch:pageAreas/>
     <sch:fields/>
     <sch:variables/>
     <sch:treeNodes/>

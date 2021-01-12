@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="TrOrder">
-    <sch:name>TrOrder</sch:name>
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="Food3">
+    <sch:name>Food3</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
     <sch:parentTypeName></sch:parentTypeName>
@@ -15,45 +15,27 @@
     <sch:aggrRoot>false</sch:aggrRoot>
     <sch:changeType></sch:changeType>
     <sch:changeFields></sch:changeFields>
-    <sch:bmfRelationships>
-        <sch:BmfObjectRelationship>
-            <sch:type>REF_TO_ONE</sch:type>
-            <sch:name>categoryId</sch:name>
-            <sch:displayName></sch:displayName>
-            <sch:description></sch:description>
-            <sch:relatedObjectType>TrCategory</sch:relatedObjectType>
-            <sch:joinField></sch:joinField>
-            <sch:lowerBound>0</sch:lowerBound>
-            <sch:upperBound>1</sch:upperBound>
-            <sch:containment>false</sch:containment>
-        </sch:BmfObjectRelationship>
-        <sch:BmfObjectRelationship>
-            <sch:type>REF_TO_MANY</sch:type>
-            <sch:name>TrOrderLine</sch:name>
-            <sch:displayName></sch:displayName>
-            <sch:description></sch:description>
-            <sch:relatedObjectType>TrOrderLine</sch:relatedObjectType>
-            <sch:joinField></sch:joinField>
-            <sch:lowerBound>0</sch:lowerBound>
-            <sch:upperBound>1</sch:upperBound>
-            <sch:containment>false</sch:containment>
-        </sch:BmfObjectRelationship>
-        <sch:BmfObjectRelationship>
-            <sch:type>REF_TO_MANY</sch:type>
-            <sch:name></sch:name>
-            <sch:displayName></sch:displayName>
-            <sch:description></sch:description>
-            <sch:relatedObjectType>TrOrder</sch:relatedObjectType>
-            <sch:joinField></sch:joinField>
-            <sch:lowerBound>0</sch:lowerBound>
-            <sch:upperBound>1</sch:upperBound>
-            <sch:containment>false</sch:containment>
-        </sch:BmfObjectRelationship>
-    </sch:bmfRelationships>
+    <sch:bmfRelationships/>
     <sch:bmfFields>
         <sch:BmfObjectField>
-            <sch:name>Name</sch:name>
+            <sch:name>AccountKind</sch:name>
             <sch:dataType>Text</sch:dataType>
+            <sch:enumName></sch:enumName>
+            <sch:length>128</sch:length>
+            <sch:scale>0</sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
+            <sch:name>CreatedBy</sch:name>
+            <sch:dataType>OID</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>0</sch:length>
             <sch:scale>0</sch:scale>
@@ -68,8 +50,8 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>Amount</sch:name>
-            <sch:dataType>Int</sch:dataType>
+            <sch:name>CreatedOn</sch:name>
+            <sch:dataType>DateTime</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>0</sch:length>
             <sch:scale>0</sch:scale>
@@ -84,10 +66,26 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>OrderNum</sch:name>
-            <sch:dataType>Text</sch:dataType>
+            <sch:name>UpdatedBy</sch:name>
+            <sch:dataType>OID</sch:dataType>
             <sch:enumName></sch:enumName>
-            <sch:length>60</sch:length>
+            <sch:length>0</sch:length>
+            <sch:scale>0</sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
+            <sch:name>UpdatedOn</sch:name>
+            <sch:dataType>DateTime</sch:dataType>
+            <sch:enumName></sch:enumName>
+            <sch:length>0</sch:length>
             <sch:scale>0</sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
@@ -101,12 +99,6 @@
         </sch:BmfObjectField>
     </sch:bmfFields>
     <sch:bmfRules/>
-    <sch:bmfIndexRules>
-        <sch:BmfIndexRule>
-            <sch:name>Tag1</sch:name>
-            <sch:indexColumns>SeqNum</sch:indexColumns>
-            <sch:indexType>Unique</sch:indexType>
-        </sch:BmfIndexRule>
-    </sch:bmfIndexRules>
+    <sch:bmfIndexRules/>
     <sch:objectTypeConfigs/>
 </sch:ObjectType>
