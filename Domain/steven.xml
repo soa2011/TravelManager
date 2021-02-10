@@ -4,5 +4,12 @@
     <sch:domainType>ListOfValues</sch:domainType>
     <sch:description></sch:description>
     <sch:domainKeys/>
-    <sch:domainEntries/>
+    <sch:domainEntries>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>1</sch:seqNumber>
+            <sch:displayValue>Draft</sch:displayValue>
+            <sch:dataValue>Draft</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+    </sch:domainEntries>
 </sch:DomainTable>

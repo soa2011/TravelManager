@@ -31,4 +31,5 @@
     <sch:variables/>
     <sch:treeNodes/>
     <sch:buttons/>
+    <sch:plugins/>
 </sch:PageDefinition>

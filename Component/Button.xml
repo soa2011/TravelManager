@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:AiafComponent xmlns:sch="http://Baf.com/schemas" name="Button">
+    <sch:name>Button</sch:name>
+    <sch:description></sch:description>
+    <sch:type></sch:type>
+    <sch:pageId></sch:pageId>
+    <sch:reactCompLib>Primary</sch:reactCompLib>
+    <sch:reactCompName>KkButton</sch:reactCompName>
+    <sch:sourceCode>{
+    "properties": [
+		{
+		    "name": "type",
+		    "title": "类型",
+		    "type": "Text"
+		},
+		{
+		    "name": "size",
+		    "title": "大小",
+		    "type": "Text"
+		}
+    ]
+}</sch:sourceCode>
+    <sch:properties/>
+</sch:AiafComponent>

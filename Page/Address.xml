@@ -485,4 +485,59 @@
     <sch:variables/>
     <sch:treeNodes/>
     <sch:buttons/>
+    <sch:plugins>
+        <sch:BmfPagePlugin>
+            <sch:name>Initializer1</sch:name>
+            <sch:type>Initializer</sch:type>
+            <sch:description></sch:description>
+            <sch:triggerType>Watch</sch:triggerType>
+            <sch:triggerField></sch:triggerField>
+            <sch:eventType></sch:eventType>
+            <sch:pageName></sch:pageName>
+            <sch:nodeName></sch:nodeName>
+            <sch:apiUri></sch:apiUri>
+            <sch:httpMethod></sch:httpMethod>
+            <sch:scriptBody>println 'hello'</sch:scriptBody>
+            <sch:inParameters/>
+            <sch:outParameters>
+            <sch:BmfOutParameter>
+            <sch:fieldName>dw1.PostalCode</sch:fieldName>
+            <sch:dataKey></sch:dataKey>
+            <sch:valueExpr>300123</sch:valueExpr>
+            <sch:type></sch:type>
+            <sch:mapOption></sch:mapOption>
+            </sch:BmfOutParameter>
+            </sch:outParameters>
+        </sch:BmfPagePlugin>
+        <sch:BmfPagePlugin>
+            <sch:name>GetQA</sch:name>
+            <sch:type>Plugin</sch:type>
+            <sch:description></sch:description>
+            <sch:triggerType>Manual</sch:triggerType>
+            <sch:triggerField></sch:triggerField>
+            <sch:eventType></sch:eventType>
+            <sch:pageName></sch:pageName>
+            <sch:nodeName></sch:nodeName>
+            <sch:apiUri></sch:apiUri>
+            <sch:httpMethod></sch:httpMethod>
+            <sch:scriptBody></sch:scriptBody>
+            <sch:inParameters/>
+            <sch:outParameters>
+            <sch:BmfOutParameter>
+            <sch:fieldName>Question</sch:fieldName>
+            <sch:dataKey>question</sch:dataKey>
+            <sch:valueExpr></sch:valueExpr>
+            <sch:type></sch:type>
+            <sch:mapOption></sch:mapOption>
+            </sch:BmfOutParameter>
+            <sch:BmfOutParameter>
+            <sch:fieldName>Answer</sch:fieldName>
+            <sch:dataKey>answer</sch:dataKey>
+            <sch:valueExpr></sch:valueExpr>
+            <sch:type></sch:type>
+            <sch:mapOption></sch:mapOption>
+            </sch:BmfOutParameter>
+            </sch:outParameters>
+        </sch:BmfPagePlugin>
+    </sch:plugins>
 </sch:PageDefinition>

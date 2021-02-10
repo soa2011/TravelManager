@@ -540,4 +540,52 @@
     <sch:variables/>
     <sch:treeNodes/>
     <sch:buttons/>
+    <sch:plugins>
+        <sch:BmfPagePlugin>
+            <sch:name>OnSelect</sch:name>
+            <sch:type>Calculator</sch:type>
+            <sch:description></sch:description>
+            <sch:triggerType>Watch</sch:triggerType>
+            <sch:triggerField>ObjectSelected</sch:triggerField>
+            <sch:eventType></sch:eventType>
+            <sch:pageName></sch:pageName>
+            <sch:nodeName></sch:nodeName>
+            <sch:apiUri></sch:apiUri>
+            <sch:httpMethod></sch:httpMethod>
+            <sch:scriptBody></sch:scriptBody>
+            <sch:inParameters/>
+            <sch:outParameters>
+            <sch:BmfOutParameter>
+            <sch:fieldName>TrOrder.oid</sch:fieldName>
+            <sch:dataKey>event.oid</sch:dataKey>
+            <sch:valueExpr></sch:valueExpr>
+            <sch:type></sch:type>
+            <sch:mapOption></sch:mapOption>
+            </sch:BmfOutParameter>
+            </sch:outParameters>
+        </sch:BmfPagePlugin>
+        <sch:BmfPagePlugin>
+            <sch:name>ObjectUpdated</sch:name>
+            <sch:type>Calculator</sch:type>
+            <sch:description></sch:description>
+            <sch:triggerType>Watch</sch:triggerType>
+            <sch:triggerField>ObjectUpdated</sch:triggerField>
+            <sch:eventType></sch:eventType>
+            <sch:pageName></sch:pageName>
+            <sch:nodeName></sch:nodeName>
+            <sch:apiUri></sch:apiUri>
+            <sch:httpMethod></sch:httpMethod>
+            <sch:scriptBody>getWidget('TrOrder').reload()</sch:scriptBody>
+            <sch:inParameters/>
+            <sch:outParameters>
+            <sch:BmfOutParameter>
+            <sch:fieldName>DataGrid.dataTimestamp</sch:fieldName>
+            <sch:dataKey>event.oid</sch:dataKey>
+            <sch:valueExpr></sch:valueExpr>
+            <sch:type></sch:type>
+            <sch:mapOption></sch:mapOption>
+            </sch:BmfOutParameter>
+            </sch:outParameters>
+        </sch:BmfPagePlugin>
+    </sch:plugins>
 </sch:PageDefinition>

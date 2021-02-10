@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:AiafComponent xmlns:sch="http://Baf.com/schemas" name="Wizard">
+    <sch:name>Wizard</sch:name>
+    <sch:description></sch:description>
+    <sch:type>CustomReactComponent</sch:type>
+    <sch:pageId></sch:pageId>
+    <sch:reactCompLib>Wizard</sch:reactCompLib>
+    <sch:reactCompName>Wizard</sch:reactCompName>
+    <sch:sourceCode></sch:sourceCode>
+    <sch:properties/>
+</sch:AiafComponent>

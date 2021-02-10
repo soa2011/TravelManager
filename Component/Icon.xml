@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:AiafComponent xmlns:sch="http://Baf.com/schemas" name="Icon">
+    <sch:name>Icon</sch:name>
+    <sch:description></sch:description>
+    <sch:type></sch:type>
+    <sch:pageId></sch:pageId>
+    <sch:reactCompLib>Primary</sch:reactCompLib>
+    <sch:reactCompName>Icon</sch:reactCompName>
+    <sch:sourceCode>{&#xd;
+    "properties": [&#xd;
+		{&#xd;
+		    "name": "type",&#xd;
+		    "title": "类型",&#xd;
+		    "type": "Text"&#xd;
+		},&#xd;
+		{&#xd;
+		    "name": "size",&#xd;
+		    "title": "大小",&#xd;
+		    "type": "Text"&#xd;
+		}&#xd;
+    ]&#xd;
+}</sch:sourceCode>
+    <sch:properties/>
+</sch:AiafComponent>

@@ -262,15 +262,15 @@
             <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>PageField_tw8x</sch:name>
+            <sch:name>DataWidget</sch:name>
             <sch:seqNumber>0</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName>DefArea</sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
-            <sch:widgetType></sch:widgetType>
+            <sch:widgetType>DataWidget</sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label></sch:label>
+            <sch:label>DataWidget</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
@@ -288,7 +288,7 @@
             <sch:sortable>false</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType></sch:filterType>
-            <sch:display>true</sch:display>
+            <sch:display>false</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
@@ -312,7 +312,7 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
-            <sch:props></sch:props>
+            <sch:props>{"array":false,"bigDecimal":false,"bigInteger":false,"binary":false,"boolean":false,"containerNode":true,"double":false,"empty":true,"float":false,"floatingPointNumber":false,"int":false,"integralNumber":false,"long":false,"missingNode":false,"nodeType":"OBJECT","null":false,"number":false,"object":true,"pojo":false,"short":false,"textual":false,"valueNode":false}</sch:props>
             <sch:dataSourceType></sch:dataSourceType>
             <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
         </sch:BmfPageField>
@@ -320,4 +320,97 @@
     <sch:variables/>
     <sch:treeNodes/>
     <sch:buttons/>
+    <sch:plugins>
+        <sch:BmfPagePlugin>
+            <sch:name>CreateOrder</sch:name>
+            <sch:type>Plugin</sch:type>
+            <sch:description></sch:description>
+            <sch:triggerType>Watch</sch:triggerType>
+            <sch:triggerField>Create</sch:triggerField>
+            <sch:eventType></sch:eventType>
+            <sch:pageName></sch:pageName>
+            <sch:nodeName></sch:nodeName>
+            <sch:apiUri></sch:apiUri>
+            <sch:httpMethod></sch:httpMethod>
+            <sch:scriptBody></sch:scriptBody>
+            <sch:inParameters/>
+            <sch:outParameters>
+            <sch:BmfOutParameter>
+            <sch:fieldName>OrderDetail.OrderNum</sch:fieldName>
+            <sch:dataKey>OrderNum</sch:dataKey>
+            <sch:valueExpr></sch:valueExpr>
+            <sch:type></sch:type>
+            <sch:mapOption></sch:mapOption>
+            </sch:BmfOutParameter>
+            </sch:outParameters>
+        </sch:BmfPagePlugin>
+        <sch:BmfPagePlugin>
+            <sch:name>PagePlugin_N3aN</sch:name>
+            <sch:type>Initializer</sch:type>
+            <sch:description></sch:description>
+            <sch:triggerType></sch:triggerType>
+            <sch:triggerField></sch:triggerField>
+            <sch:eventType></sch:eventType>
+            <sch:pageName></sch:pageName>
+            <sch:nodeName></sch:nodeName>
+            <sch:apiUri></sch:apiUri>
+            <sch:httpMethod></sch:httpMethod>
+            <sch:scriptBody></sch:scriptBody>
+            <sch:inParameters>
+            <sch:BmfInParameter>
+            <sch:name></sch:name>
+            <sch:type></sch:type>
+            <sch:seqNumber>0</sch:seqNumber>
+            <sch:fieldName>OrderDetail.OrderNum</sch:fieldName>
+            <sch:dataKey>inParams.orderId</sch:dataKey>
+            </sch:BmfInParameter>
+            </sch:inParameters>
+            <sch:outParameters/>
+        </sch:BmfPagePlugin>
+        <sch:BmfPagePlugin>
+            <sch:name>PagePlugin_qRxn</sch:name>
+            <sch:type></sch:type>
+            <sch:description></sch:description>
+            <sch:triggerType></sch:triggerType>
+            <sch:triggerField></sch:triggerField>
+            <sch:eventType></sch:eventType>
+            <sch:pageName></sch:pageName>
+            <sch:nodeName></sch:nodeName>
+            <sch:apiUri></sch:apiUri>
+            <sch:httpMethod></sch:httpMethod>
+            <sch:scriptBody></sch:scriptBody>
+            <sch:inParameters/>
+            <sch:outParameters/>
+        </sch:BmfPagePlugin>
+        <sch:BmfPagePlugin>
+            <sch:name>PagePlugin_GEgR</sch:name>
+            <sch:type></sch:type>
+            <sch:description></sch:description>
+            <sch:triggerType></sch:triggerType>
+            <sch:triggerField></sch:triggerField>
+            <sch:eventType></sch:eventType>
+            <sch:pageName></sch:pageName>
+            <sch:nodeName></sch:nodeName>
+            <sch:apiUri></sch:apiUri>
+            <sch:httpMethod></sch:httpMethod>
+            <sch:scriptBody></sch:scriptBody>
+            <sch:inParameters/>
+            <sch:outParameters/>
+        </sch:BmfPagePlugin>
+        <sch:BmfPagePlugin>
+            <sch:name>PagePlugin_aOLf</sch:name>
+            <sch:type></sch:type>
+            <sch:description></sch:description>
+            <sch:triggerType></sch:triggerType>
+            <sch:triggerField></sch:triggerField>
+            <sch:eventType></sch:eventType>
+            <sch:pageName></sch:pageName>
+            <sch:nodeName></sch:nodeName>
+            <sch:apiUri></sch:apiUri>
+            <sch:httpMethod></sch:httpMethod>
+            <sch:scriptBody></sch:scriptBody>
+            <sch:inParameters/>
+            <sch:outParameters/>
+        </sch:BmfPagePlugin>
+    </sch:plugins>
 </sch:PageDefinition>

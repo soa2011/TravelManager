@@ -320,4 +320,21 @@
     <sch:variables/>
     <sch:treeNodes/>
     <sch:buttons/>
+    <sch:plugins>
+        <sch:BmfPagePlugin>
+            <sch:name>PagePlugin_npxD</sch:name>
+            <sch:type></sch:type>
+            <sch:description></sch:description>
+            <sch:triggerType></sch:triggerType>
+            <sch:triggerField></sch:triggerField>
+            <sch:eventType></sch:eventType>
+            <sch:pageName></sch:pageName>
+            <sch:nodeName></sch:nodeName>
+            <sch:apiUri></sch:apiUri>
+            <sch:httpMethod></sch:httpMethod>
+            <sch:scriptBody></sch:scriptBody>
+            <sch:inParameters/>
+            <sch:outParameters/>
+        </sch:BmfPagePlugin>
+    </sch:plugins>
 </sch:PageDefinition>

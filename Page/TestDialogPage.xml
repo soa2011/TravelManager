@@ -44,4 +44,44 @@
     <sch:variables/>
     <sch:treeNodes/>
     <sch:buttons/>
+    <sch:plugins>
+        <sch:BmfPagePlugin>
+            <sch:name>ReturnPlugin</sch:name>
+            <sch:type>ExitDialog</sch:type>
+            <sch:description></sch:description>
+            <sch:triggerType></sch:triggerType>
+            <sch:triggerField></sch:triggerField>
+            <sch:eventType></sch:eventType>
+            <sch:pageName></sch:pageName>
+            <sch:nodeName></sch:nodeName>
+            <sch:apiUri></sch:apiUri>
+            <sch:httpMethod></sch:httpMethod>
+            <sch:scriptBody></sch:scriptBody>
+            <sch:inParameters/>
+            <sch:outParameters/>
+        </sch:BmfPagePlugin>
+        <sch:BmfPagePlugin>
+            <sch:name>InitPlugin</sch:name>
+            <sch:type>Initializer</sch:type>
+            <sch:description></sch:description>
+            <sch:triggerType></sch:triggerType>
+            <sch:triggerField></sch:triggerField>
+            <sch:eventType></sch:eventType>
+            <sch:pageName></sch:pageName>
+            <sch:nodeName></sch:nodeName>
+            <sch:apiUri></sch:apiUri>
+            <sch:httpMethod></sch:httpMethod>
+            <sch:scriptBody></sch:scriptBody>
+            <sch:inParameters>
+            <sch:BmfInParameter>
+            <sch:name>ProductName</sch:name>
+            <sch:type></sch:type>
+            <sch:seqNumber>0</sch:seqNumber>
+            <sch:fieldName>Area1.ProductName</sch:fieldName>
+            <sch:dataKey>inParams.param1</sch:dataKey>
+            </sch:BmfInParameter>
+            </sch:inParameters>
+            <sch:outParameters/>
+        </sch:BmfPagePlugin>
+    </sch:plugins>
 </sch:PageDefinition>

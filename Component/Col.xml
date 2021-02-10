@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:AiafComponent xmlns:sch="http://Baf.com/schemas" name="Col">
+    <sch:name>Col</sch:name>
+    <sch:description></sch:description>
+    <sch:type>Primitive</sch:type>
+    <sch:pageId></sch:pageId>
+    <sch:reactCompLib></sch:reactCompLib>
+    <sch:reactCompName></sch:reactCompName>
+    <sch:sourceCode></sch:sourceCode>
+    <sch:properties/>
+</sch:AiafComponent>

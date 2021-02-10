@@ -6,7 +6,7 @@
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
     <sch:seqNumber>0</sch:seqNumber>
-    <sch:objectTypeName>Food7</sch:objectTypeName>
+    <sch:objectTypeName>TrItem</sch:objectTypeName>
     <sch:display>false</sch:display>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
@@ -25,7 +25,7 @@
     <sch:changeFields></sch:changeFields>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
-    <sch:objectType isRef="true">Food7</sch:objectType>
+    <sch:objectType isRef="true">TrItem</sch:objectType>
     <sch:pageAreas>
         <sch:BmfPageArea>
             <sch:name>DefArea</sch:name>
@@ -45,4 +45,5 @@
     <sch:variables/>
     <sch:treeNodes/>
     <sch:buttons/>
+    <sch:plugins/>
 </sch:PageDefinition>
